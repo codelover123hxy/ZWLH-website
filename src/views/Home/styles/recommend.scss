@@ -1,0 +1,35 @@
+.recommend-list {
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+
+    .item {
+        display: flex;
+        margin: 10px;
+        width: max-content;
+        
+        .title {
+            font-weight: bold;
+        }
+
+        .thumb-nail {
+            width: 280px;
+            border-radius: 5px;
+        }
+
+        .item-right {
+            text-align: left;
+            margin-left: 20px;
+            align-self: center;
+        }
+    }
+}
+
+.recommend {
+    width: 1450px;
+    height: 500px;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    opacity: 0.9;
+    border-radius: 30px;
+    background-color: white;
+}

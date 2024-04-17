@@ -1,0 +1,290 @@
+﻿[
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "name": "Top Gun"
+      },
+      "elementId": "0"
+    }
+  },
+  {
+    "n": {
+      "identity": 1,
+      "labels": [
+        "Actor"
+      ],
+      "properties": {
+        "name": "Tom Cruise"
+      },
+      "elementId": "1"
+    }
+  },
+  {
+    "n": {
+      "identity": 2,
+      "labels": [
+        "Actor"
+      ],
+      "properties": {
+        "name": "Val Kilmer"
+      },
+      "elementId": "2"
+    }
+  },
+  {
+    "n": {
+      "identity": 3,
+      "labels": [
+        "Title"
+      ],
+      "properties": {
+        "title": "《静夜思》"
+      },
+      "elementId": "3"
+    }
+  },
+  {
+    "n": {
+      "identity": 4,
+      "labels": [
+        "Title"
+      ],
+      "properties": {
+        "title": "《赠汪伦》"
+      },
+      "elementId": "4"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Title"
+      ],
+      "properties": {
+        "title": "《望岳》"
+      },
+      "elementId": "5"
+    }
+  },
+  {
+    "n": {
+      "identity": 6,
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "李白"
+      },
+      "elementId": "6"
+    }
+  },
+  {
+    "n": {
+      "identity": 7,
+      "labels": [
+        "Author"
+      ],
+      "properties": {
+        "name": "杜甫"
+      },
+      "elementId": "7"
+    }
+  },
+  {
+    "n": {
+      "identity": 8,
+      "labels": [
+        "Dynasty"
+      ],
+      "properties": {
+        "dynasty": "唐朝"
+      },
+      "elementId": "8"
+    }
+  },
+  {
+    "n": {
+      "identity": 9,
+      "labels": [
+        "Content"
+      ],
+      "properties": {
+        "content": "床前明月光，疑是地上霜。举头望明月，低头思故乡。"
+      },
+      "elementId": "9"
+    }
+  },
+  {
+    "n": {
+      "identity": 10,
+      "labels": [
+        "Content"
+      ],
+      "properties": {
+        "content": "李白乘舟将欲行，忽闻岸上踏歌声。桃花潭水深千尺，不及汪伦送我情。"
+      },
+      "elementId": "10"
+    }
+  },
+  {
+    "n": {
+      "identity": 11,
+      "labels": [
+        "Content"
+      ],
+      "properties": {
+        "content": "岱宗夫如何？齐鲁青未了。造化钟神秀，阴阳割昏晓。荡胸生曾（层）云，决眦入归鸟。会当凌绝顶，一览众山小。"
+      },
+      "elementId": "11"
+    }
+  },
+  {
+    "n": {
+      "identity": 12,
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "background": "《静夜思》创作于唐玄宗开元十四年（726），当时李白二十六岁，在扬州（今属江苏）旅舍。"
+      },
+      "elementId": "12"
+    }
+  },
+  {
+    "n": {
+      "identity": 13,
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "background": "《赠汪伦》是唐代大诗人李白于泾县（今安徽皖南地区）游历桃花潭时写给当地好友汪伦的一首留别诗。"
+      },
+      "elementId": "13"
+    }
+  },
+  {
+    "n": {
+      "identity": 14,
+      "labels": [
+        "Background"
+      ],
+      "properties": {
+        "background": "《望岳》是唐代诗人杜甫创作的五言古诗。"
+      },
+      "elementId": "14"
+    }
+  },
+  {
+    "n": {
+      "identity": 15,
+      "labels": [
+        "Appreciation"
+      ],
+      "properties": {
+        "appreciate": "此诗描写了秋日夜晚，旅居在外的诗人于屋内抬头望月而思念家乡的感受。"
+      },
+      "elementId": "15"
+    }
+  },
+  {
+    "n": {
+      "identity": 16,
+      "labels": [
+        "Appreciation"
+      ],
+      "properties": {
+        "appreciate": "此诗前两句描绘李白乘舟欲行时，汪伦踏歌赶来送行的情景，朴素自然地表达出汪伦对李白那种朴实、真诚的情感；后两句先用“深千尺”赞美桃花潭水的深湛，紧接“不及”两字笔锋一转，用衬托的手法，把无形的情谊化为有形的千尺潭水，生动形象地表达了汪伦对李白那份真挚深厚的友情。"
+      },
+      "elementId": "16"
+    }
+  },
+  {
+    "n": {
+      "identity": 17,
+      "labels": [
+        "Appreciation"
+      ],
+      "properties": {
+        "appreciate": "这首诗通过描绘泰山雄伟磅礴的景象，热情赞美了泰山高大巍峨的气势和神奇秀丽的景色，流露出了对祖国山河的热爱之情，表达了诗人不怕困难、敢攀顶峰、俯视一切的雄心和气概，以及卓然独立、兼济天下的豪情壮志。"
+      },
+      "elementId": "17"
+    }
+  },
+  {
+    "n": {
+      "identity": 18,
+      "labels": [
+        "Style"
+      ],
+      "properties": {
+        "style": "思乡"
+      },
+      "elementId": "18"
+    }
+  },
+  {
+    "n": {
+      "identity": 19,
+      "labels": [
+        "Style"
+      ],
+      "properties": {
+        "style": "送别"
+      },
+      "elementId": "19"
+    }
+  },
+  {
+    "n": {
+      "identity": 20,
+      "labels": [
+        "Style"
+      ],
+      "properties": {
+        "style": "壮志"
+      },
+      "elementId": "20"
+    }
+  },
+  {
+    "n": {
+      "identity": 21,
+      "labels": [
+        "Form"
+      ],
+      "properties": {
+        "form": "诗"
+      },
+      "elementId": "21"
+    }
+  },
+  {
+    "n": {
+      "identity": 22,
+      "labels": [
+        "Actor"
+      ],
+      "properties": {
+        "name": "Anthony Edwards"
+      },
+      "elementId": "22"
+    }
+  },
+  {
+    "n": {
+      "identity": 23,
+      "labels": [
+        "Actor"
+      ],
+      "properties": {
+        "name": "Meg Ryan"
+      },
+      "elementId": "23"
+    }
+  }
+]

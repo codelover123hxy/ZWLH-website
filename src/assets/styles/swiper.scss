@@ -1,0 +1,9 @@
+.images {
+    display: flex;
+    width: 100%;
+    .image {
+        margin: 0 20px;
+        border-radius: 20px;
+        width: 350px;
+    }
+}

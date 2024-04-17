@@ -1,0 +1,197 @@
+@import '../styles/common.scss';
+
+.chat-box-item {
+    background-color: rgb(191, 238, 255);
+    color: white;
+    margin: 10px 0px 10px 25px;
+    border-radius: 20px;
+    text-align: left;
+    max-width: 800px;
+    width: fit-content;
+    padding: 0px 15px;
+    box-sizing: border-box;
+    line-height: 25px;
+}
+
+.right-green {
+    color: black;
+    background-color: rgb(193, 255, 250);
+    text-align: left;
+    margin-left: auto;
+    max-width: 800px;
+    width: fit-content;
+    padding: 0px 15px;
+    box-sizing: border-box;
+}   
+
+.chat {
+    display: flex;
+    background-color: #1A202C;
+}
+ 
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+ 
+::-webkit-scrollbar-track {
+  width: 8px;
+  background-color: rgba(217, 217, 217, 0.2);
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  width: 8px;
+  box-shadow: inset 0 0 6px #bfbfbf;
+  -webkit-box-shadow: inset 0 0 6px #bfbfbf;
+  background-color: #f2f9ff;
+  background-clip: padding-box;
+  border-radius: 5px;
+  &:hover,
+  &:active {
+    background-color: #d5ebff;
+  }
+}
+ 
+::-webkit-scrollbar-corner {
+  background-color: #ffffff;
+}
+
+.chat-right {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 800px;
+    padding: 50px 20px;
+    // background-image: url('../image/问答（web）2.webp');
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    scrollbar-width:thin;
+
+
+    .chat-box {
+        height: 85%;
+        overflow-y: auto;
+        overflow-x: hidden;
+
+    }  
+ 
+    .question {
+        display: flex;
+        margin: 20px auto;
+        position: absolute;
+        bottom: 20px;
+        width: fit-content;
+        gap: 30px;
+        left: 50%;
+        align-items: center;
+        transform: translate(-50%);
+        border-radius: 10px;
+        background-color: #2D3748;
+        padding: 0 20px;
+
+        .upload-div {
+            display: inline-block;
+            position: relative;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            border-radius: 50%;
+            color: white;
+            border: solid white 1px;
+        }
+
+        // .upload-btn {
+        //     // position: absolute;
+        //     // left: 50%;
+        //     // top: 50%;
+        //     // transform: translate(-50%, -50%);
+        //     width: 50px;
+        //     height: 50px;
+        //     border-radius: 100%; /* 将按钮的边框半径设置为50%以创建圆形按钮 */
+        //     // background-color: #ffffff; /* 设置按钮背景颜色为白色 */
+        //     // border: 1px solid #dddddd; /* 添加边框 */
+        //     // padding: 10px; /* 调整按钮内边距 */
+        // }
+
+        input {
+            width: 500px;
+            height: 40px;
+            border-radius: 15px;
+            padding-left: 10px;
+            outline: none;
+            background-color: inherit;
+            color: white;
+            border: none;
+        }
+    }
+}
+
+.auto-wrap {
+    font-size: 16px;
+    width: 90%;
+    height: 90%;
+    word-wrap: break-word;
+    overflow-wrap: normal;
+}
+
+.chat-bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.side-bar {
+    float: left;
+}
+
+.submit {
+    background-color: $blue-green;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.model-select {
+    text-align: center;
+    position: absolute;
+    margin: 0 auto;
+    z-index: 5;
+    cursor: pointer;
+    
+    .selected-model {
+        position: relative;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 1px 1px grey;
+        width: 80px;
+        margin: 10px;
+    }
+
+    .models {
+        display: flex;
+        flex-wrap: wrap;
+        width: 400px;
+        box-sizing: border-box;
+        border-radius: 30px;
+        gap: 10px;
+        padding: 15px 0;
+        margin-left: 10px;
+        justify-content: space-evenly;
+    }
+
+    .model-item {
+        border-radius: 10px;
+        width: 100px;
+        height: 60px;
+        line-height: 60px;
+        background-color: white;
+        box-shadow: 0 0 1px 1px grey;
+    }
+
+    .model-item:hover {
+        transform: scale(110%);
+        box-shadow: 0 0 2px 2px rgb(179, 179, 179);
+    }
+}

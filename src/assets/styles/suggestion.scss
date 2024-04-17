@@ -1,0 +1,48 @@
+.suggestion{
+
+    width: 1500px;
+    .suggestion-item {
+        width: 480px;
+        border-radius: 10px;
+        box-shadow: 0 0 1px 1px rgb(212, 212, 212);
+        margin-top: 10px;
+        background-color: #F5F5F5;
+        padding: 10px 15px;
+    }
+    
+
+    .title {
+        background-color: #F5F5F5;
+        box-shadow: 0 0 1px 1px rgb(240, 240, 240);
+        border-radius: 10px;
+        padding: 10px 15px;
+        width: max-content;
+        min-width: 280px;
+
+
+        .number  {
+            color: #47494B;
+            font-size: 28px;
+            font-weight: 500;
+            margin-right: 15px;
+        }
+    }
+
+    .textarea {
+        width: 310px;
+        height: 100px;
+        box-shadow: 0 0 2px 2px rgb(175, 175, 175);
+        border: none;
+        margin: 10px 10px 10px 0;
+    }
+
+    .rating {
+        margin-top: 20px;
+    }
+
+    .submit-btn {
+        background-color: #DFDFDF;
+        border-radius: 5px;
+        height: 40px;
+    }
+}

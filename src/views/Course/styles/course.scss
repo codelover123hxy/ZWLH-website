@@ -1,0 +1,146 @@
+@import '../../../assets/styles/common.scss';
+
+.flex-layout {
+    display: flex; 
+    gap: 15px;
+    align-items:start;
+    border-top: 1px solid rgb(236, 236, 236);
+    margin: 5px auto;
+    .right {
+        margin-top: 8px;
+    
+    }
+}
+
+.flex-layout * {
+    display: block;
+    max-width: 800px;
+ 
+}
+.course-intro {
+    border: 30px solid white;
+    box-sizing: border-box;
+    overflow: auto;
+    height: 800px;
+    text-align: left;
+   
+
+    .title {
+        font-weight: 700;
+        font-size: 10px;
+        background-color: $blue-green;
+        width: max-content;
+        padding: 5px 15px;
+        border-radius: 20px;
+        margin: 10px 0;
+        height: min-content;
+    }
+    
+    .chapter {
+        color: rgb(86, 86, 86);
+        font-size: 16px;
+    }
+}
+
+.course-material {
+    .content {
+        padding: 20px;
+    }
+}
+
+.interaction {
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: left;
+
+    .qa {
+        text-align: left;
+        background-color: rgb(223, 250, 255);
+        padding: 10px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        margin: 10px auto;
+        box-shadow: 2px 2px 2px 2px rgb(119, 122, 122);
+
+        .item {
+            margin: 10px auto;
+            .title {
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.common {
+    width: 85%;
+    height: 750px;
+    overflow: auto;
+    margin: 25px auto;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px #898989;
+    font-family: '微软雅黑';
+    color: black;
+}
+
+.qa-item {
+    margin-top: 20px;
+    padding-left: 40px;
+    .title {
+        width: 1200px;
+        border-radius: 10px;
+        background-color: rgb(247, 247, 247);
+        padding: 15px;
+        text-align: left;
+        box-shadow: 0 0 10px rgb(198, 198, 198);
+    }
+
+    .bottom {
+        width: 1200px;
+        margin-top: 10px;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 0 5px rgb(203, 203, 203);
+
+        .item {
+            display: flex;
+            gap: 10px;
+            margin: 10px auto;
+
+            .label {
+                text-align: right;
+                color: $blue-green;
+                width: 100px;
+            }
+    
+            .text {
+                text-align: left;
+                max-width: 1000px;
+                flex-wrap: wrap;
+            }
+        }
+    }
+}
+
+.task {
+    .title {
+        font-weight: bold;
+        text-align: left;
+        margin-left: 40px;
+        height: 60px;
+        line-height: 60px;
+        border-bottom: 1px solid rgb(0,0,0,0.1);
+    }
+
+    .item {
+        text-align: left;
+        border-bottom: 1px solid rgb(0,0,0,0.1);
+        height: 50px;
+        line-height: 50px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 40px 0 40px;
+    }
+  
+}

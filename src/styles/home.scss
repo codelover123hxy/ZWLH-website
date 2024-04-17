@@ -1,0 +1,57 @@
+.nav-bar {   
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px 0;
+    width: max-content;
+    display: flex;
+
+    .nav {
+        height: 40px;
+        line-height: 40px;
+        margin: 0 20px;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 600;
+        color: black;
+    }
+
+    .active {
+        border-bottom: 3px solid rgb(117, 220, 189);
+        height: 40px;
+        line-height: 40px;
+    }
+    
+    .to-login {
+        height: 40px;
+        line-height: 40px;
+        margin-left: 20px;
+     
+    }
+
+    .left-logo {
+        height: 40px;
+        line-height: 40px;
+        text-decoration: none;
+        margin-right: 50px;
+        font-weight: 600;
+        color: black;
+    }
+}
+
+.home {
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 -300px;
+    opacity: 0.5;
+    background-image: url('../../../public/image/首页web2.webp');
+}
+
+.cate {
+    position: absolute;
+    top: 0px;
+}
+
+.recom {
+    margin-top: 30px;
+}

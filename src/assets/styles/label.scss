@@ -1,0 +1,18 @@
+@import '../styles/common.scss';
+
+.custom-label {
+    margin: 10px 0;
+    padding: 5px 15px;
+    border: 30px;
+    background-color: $blue-green;
+    width: max-content;
+    border-radius: 30px;
+    font-size: 10px;
+    height: max-content;
+    font-weight: bold;
+
+    .img {
+        width: 20px;
+        height: 20px;
+    }
+}

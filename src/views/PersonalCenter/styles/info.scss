@@ -1,0 +1,60 @@
+.info {
+    height: 200px;
+    background-image: url('../../../assets/image/个人中心（web）3.png');
+    padding-top: 50px;
+    box-sizing: border-box;
+    position: relative;
+
+    .self-data {
+        position: absolute;
+        right: 200px;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: left;
+        background-color: rgb(17, 62, 48);
+        border-radius: 5px;
+        width: 140px;
+        height: 60px;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px;
+        box-sizing: border-box;
+
+        .title {
+            color: white;
+        }
+
+        .value {
+            color: rgb(148, 255, 225);
+        }
+
+    }
+
+    .left {
+        display: flex;
+        margin-left: 130px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        .basic {
+            .nickname {
+                font-weight: 700;
+                font-size: 30px;
+            }
+            div {
+                margin: 10px 0;
+                text-align: left;
+            }
+            color: white;
+            font-weight: 100;
+            margin-left: 50px;
+        }
+    
+        .avatar-url {
+            align-self: center;
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+        }
+    }
+}

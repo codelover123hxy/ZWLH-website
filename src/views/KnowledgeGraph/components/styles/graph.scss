@@ -1,0 +1,102 @@
+@import '../../../../assets/styles/common.scss';
+.label-content {
+    padding: 4px;
+    width: fit-content;
+    font-size: 10px;
+    margin: 0 3px;
+}
+
+.scale-btn {
+    width: 30px;
+    height: 60px;
+    border: 2px solid rgb(0,0,0,0.2) ;
+    border-radius: 5px;
+    
+  
+    .add {
+        line-height: 30px;
+        height: 30px;
+        font-size: 30px;
+    }
+
+    .sub {
+        line-height: 30px;
+        height: 30px;
+        font-size: 30px;
+    }
+}
+
+.graph {
+    box-shadow: inset 1px 1px 1px 1px darkgrey;
+    width: 80%;
+    margin-left: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 800px;
+    border-radius: 20px;
+    background-color: $light-blue;
+    // display: flex;
+    display: flex;
+    justify-content: space-between;
+
+    .left {
+        .switch {
+            display: flex;
+            width: 300px;
+            justify-content: space-evenly;
+    
+            .item {
+                height: 100px;
+                align-self: baseline;
+                padding: 10px;
+            
+                height: min-content;
+                width: max-content;
+                
+                .img {
+                    width: 30px;
+                }                
+            }
+
+            .active-item {
+                background-color: $blue-green;
+                height: max-content;
+                width: max-content;
+            }
+        }
+    
+        .overview {
+            width: 400px;
+            height: 350px;
+            border-radius: 20px;
+            background-color: white;
+            border: 1px solid rgb(188, 188, 188);
+            margin: 20px;
+            padding: 20px;
+            text-align: left;
+            box-sizing: border-box;
+    
+            .label {
+                font-weight: 500;
+                text-align: left;
+                margin: 5px 0;
+                display: block;
+                width: 360px;
+            
+                .right-arrow {
+                    float:right;
+                }
+            }
+    
+            .labels {
+                display: flex;
+            }
+        
+            .label:nth-child(1) {
+                font-size: x-large;
+            }
+        }
+    }
+    
+    
+}

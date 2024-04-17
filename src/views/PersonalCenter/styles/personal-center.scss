@@ -1,0 +1,29 @@
+.back {
+    background-image: url(../../../assets/image/background.png);
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    bottom: -150px;
+    z-index: 0;
+    right: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.left-back {
+    background-image: url(../../../assets/image/个人中心（web）1.webp);
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    bottom: 150px;
+    z-index: 0;
+    left: -120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.right {
+    position: relative;
+    z-index: 1;
+}

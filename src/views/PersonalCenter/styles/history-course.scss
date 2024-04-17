@@ -1,0 +1,20 @@
+.container {
+    margin-top: 50px;
+    position: relative;
+    cursor: pointer;
+    .course-box {
+        display: flex;
+        .course-image {
+            width: 140px;
+            height: 70px;
+            border-radius: 10px;
+            margin: 0 15px;
+        }
+
+        .course-name {
+            font-weight: 700;
+        }
+    }
+}
+
+

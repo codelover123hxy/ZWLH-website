@@ -1,0 +1,92 @@
+.login {
+    background-image: url(../svg/login-back.svg);
+    margin-top: 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 845px;
+    padding-top: 10px;
+
+    .input {
+        width: 300px;
+        height: 35px;
+        border-radius: 10px;
+        border: 1.5px solid rgb(225, 225, 225);
+        margin: 10px auto;    
+        background-color: white;
+        padding-left: 10px;   
+        outline-color: #00a6ff;
+        outline-width: 0.1px;
+    }
+
+    .login-btn {
+        width: 240px;
+        height: 40px;
+        margin: 20px 0;
+        border-radius: 20px;
+        border: 1px white solid;
+        background-image: linear-gradient(rgb(35, 239, 239), rgba(58, 135, 228, 0.463));
+        background-color: rgb(192, 255, 255);
+        color: white;
+    }
+
+    .tip {
+        font-size: 12px;
+        margin-left: 30px;
+        cursor: pointer;
+        &:hover {
+            color: rgb(50, 166, 255);
+        }
+    }
+
+    .login-box {
+        // background-color: rgb(255, 255, 255);
+        width: 500px;
+        margin: 100px auto;
+        padding: 60px 20px;
+        box-sizing: border-box;
+        border-radius: 20px;
+        opacity: 0.9;
+    }
+
+    .register {
+        margin-top: 10px;
+    }
+
+    .captcha {
+        width: 315px;
+        height: 38px;
+        line-height: 35px;
+        border-radius: 10px;
+        border: 1px solid black;
+        margin: 10px auto;
+        box-sizing: border-box;
+        background-color: white;
+        border: 1.5px solid rgb(225, 225, 225); 
+    }
+
+    .captcha:focus-visible {
+        outline: auto;
+        outline-color: #00a6ff;
+        outline-width: 1px;
+    }
+
+    .captcha-input {
+        border: none;
+        outline: none;
+        width: 220px;
+        margin-left: calc(-10px);
+        text-align: left;
+    }
+
+    .submit-btn {
+        font-size: 12px;
+        line-height: 30px;
+        color: rgb(21, 138, 255);
+        cursor: pointer;
+    }
+
+    .grey {
+        color: darkgray;
+    }
+}
+

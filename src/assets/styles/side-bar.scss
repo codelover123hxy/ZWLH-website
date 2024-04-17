@@ -1,0 +1,76 @@
+@import './common.scss';
+.side-bar {
+    background-color: black;
+    width: 250px;
+    position: relative;
+    padding: 25px;
+    box-sizing: border-box;
+    color: white;
+    text-align: left;
+    font-size: 14px;
+    height: 100%;
+
+    .title {
+        font-size: large;
+        text-align: center;
+        margin: 30px 0;
+    }
+    
+    .new-chat {
+        border-style: dashed;
+        text-align: center;
+        border-color: gray;
+        padding: 5px;
+        border-radius: 5px;
+        border-width: 1px;
+        margin-bottom: 10px;
+    }
+    
+    .subtitle {
+        color: $blue-green;
+        font-size: medium;
+    }
+    
+    .item {
+        margin: 10px auto;
+        .right-arrow{
+            float: right;
+            font-size: 15px;
+        }
+    }
+
+    .first-block {
+        height: 300px;
+        overflow:auto;
+    }
+    
+    .second-block {
+        margin-top: 30px;
+        height: 300px;     
+    }
+
+    .box {
+        cursor: pointer;
+        height: 300px;
+        overflow:auto;
+        .item {
+            color: white;
+            display: block;
+            font-size: 15px;
+            padding: 5px 8px;
+            text-decoration: none;
+        }
+
+        .active {
+            background-color: $blue-green;
+            border-radius: 15px;
+            color: black;
+        }
+    }
+
+    .box::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+

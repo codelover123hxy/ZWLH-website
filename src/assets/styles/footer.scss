@@ -1,0 +1,27 @@
+.footer {
+    padding: 20px;
+    height: 150px;
+    width: 100%;
+    color: white;
+    background-color: rgb(89, 89, 89);
+
+    .link {
+        text-align: left;
+        a {
+            color: rgb(197, 197, 197);
+            text-decoration: none;
+            
+        }
+        a:hover {
+            color: rgb(255, 218, 218);
+        }
+        
+    }
+
+    .box {
+        margin: 10px auto;
+        display: flex;
+        justify-content: space-between;
+        width: 250px;
+    }
+}
